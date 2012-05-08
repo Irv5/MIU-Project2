@@ -1,0 +1,121 @@
+<!doctype html>  
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	
+	<title>Music Catalog</title>
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Mobile IE needs ClearType for smoothing fonts -->
+	<meta http-equiv="cleartype" content="on">
+	
+	<!-- StyleSheets under here -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	
+	
+	<!-- JavaScript is normally at the end of the body, except for Modernizr which enables HTML5 elements & feature detects -->
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+		<div data-role="page" id-"home">
+			<div data-role="header" data-position="fixed" data-theme="a">
+				<h1>Music Catalog</h1>
+			</div>
+		
+						
+			<div data-role="footer" data-position="fixed" data-id="home">
+			 
+			 
+			 
+			 
+			 </div>
+			
+				
+				<p><a href="#fun" data-theme="b" data-role="button" data-icon="arrow-r" data-iconpos="right">Find Fun Music Here</a></p>
+				
+				
+				
+				<p><a href="#other" data-theme="b" data-role="button" data-icon="arrow-r" data-iconpos="right">Find Fun Other Here</a></p>
+			</div>
+		
+			<div data-role="footer" data-position="fixed" data-id="fun">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#fun" data-icon="star":>Fun</a></li>
+						<li><a href="#other" data-icon="gear":>Other</a></li>
+					</ul>
+				</div>
+			</div>
+	
+		</div>
+		
+		
+		<div data-role="page" id="fun" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Fun Music Page</h1>			
+			</div>
+		
+			<div data-role="content">
+				<p>Fun Music Info</p>
+			</div>
+			
+			<div data-role="content">
+			
+				<ul data-role="listview">
+					<li>
+						<a href="additem.html"
+							<img src="images/Fun.png" />
+							<h3>Test</h3>
+							<p>This is a test run.</p>
+						</a>
+					</li>
+					<li>Test Two</li>
+					<li>Test Three</li>
+				</ul>
+			</div>
+
+		
+			<div data-role="footer" data-position="fixed">
+				<h4>Footer</h4>
+			</div>
+	
+		</div>
+
+		<div data-role="page" id="other" data-add-back-btn="true">
+			<div data-role="header" data-position="fixed">
+				<h1>Other Music Page</h1>
+			</div>
+		
+			<div data-role="content">
+				<p>Other Music Info</p>
+				
+				<div data-role="content">
+				
+				<ul>
+					<li>Test</li>
+					<li>Test Two</li>
+					<li>Test Three</li>
+				</ul>
+				
+			</div>	
+		
+			<div data-role="footer" data-position="fixed">
+				<h4>Footer</h4>
+			</div>
+	
+		</div>
+
+	<!-- JavaScript under here -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
